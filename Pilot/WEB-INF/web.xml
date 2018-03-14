@@ -1,0 +1,89 @@
+<web-app>
+
+<servlet>
+<!-- Name you want to call it -->
+<servlet-name>Pilot</servlet-name>
+<!-- Name of the java class -->
+<servlet-class>Winery</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<!-- Name you want to call it -->
+<servlet-name>Pilot</servlet-name>
+<!-- URL that you want to access it with -->
+<url-pattern>/Winery</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>WineryAccount</servlet-name>
+	<servlet-class>WineryAccount</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>WineryAccount</servlet-name>
+	<url-pattern>/WineryAccount</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ImporterAccount</servlet-name>
+	<servlet-class>ImporterAccount</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ImporterAccount</servlet-name>
+	<url-pattern>/ImporterAccount</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>BrowseWines</servlet-name>
+	<servlet-class>BrowseWines</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>BrowseWines</servlet-name>
+	<url-pattern>/BrowseWines</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>NewWine</servlet-name>
+	<servlet-class>NewWine</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>NewWine</servlet-name>
+	<url-pattern>/NewWine</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>CreateDatabase</servlet-name>
+	<servlet-class>CreateDatabase</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CreateDatabase</servlet-name>
+	<url-pattern>/CreateDatabase</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ClearDatabase</servlet-name>
+	<servlet-class>ClearDatabase</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ClearDatabase</servlet-name>
+	<url-pattern>/ClearDatabase</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ViewAccounts</servlet-name>
+	<servlet-class>ViewAccounts</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ViewAccounts</servlet-name>
+	<url-pattern>/ViewAccounts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>Login</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+</web-app>
